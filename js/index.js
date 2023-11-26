@@ -10,6 +10,6 @@ btn_next.addEventListener('click',()=>{
     })
     
     var video = document.querySelector('.vdo')
-    video.src = video_name[parseInt(Math.random()*video_name.length)]
+    video.src = video_name[1]
     console.log('Url Do Video: '+video.src)
 })
