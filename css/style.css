@@ -110,3 +110,13 @@ img{
      background-color: rgba(255, 0, 0, 0.386);
      border-radius: 100%;
    }
+.next{
+ 
+  position: absolute;
+  bottom: 35%;
+  right: 30%;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  z-index: 1;
+}
