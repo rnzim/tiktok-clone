@@ -1,7 +1,7 @@
 var btn_next = document.querySelector('.next')
 btn_next.addEventListener('click',()=>{
     var video_name = Array()
-    const url = 'https://tk-backend.onrender.com'
+    const url = 'https://tk-backend.onrender.com/video'
     axios.get(url).then(vdos =>{
         console.log(vdos)
         video_name = vdos
